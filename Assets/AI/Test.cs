@@ -63,8 +63,8 @@ public class Test : MonoBehaviour
 
     public void LoadData()
     {
-        inputs = Node.GetNodes(new float[] { 0.9f, 0.8f });
-        label = Node.GetNodes(new float[] { 0.8f, 0.3f });
+        inputs = Node.GetNodes(new float[] { 0.5f, 0.20f });
+        label = Node.GetNodes(new float[] { 0.2f, 0.33f });
     }
 
     public void CreatNeuralNetwork(float lr)
